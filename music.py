@@ -98,4 +98,5 @@ if btn:
 	else:
 		webbrowser.open(f"https://www.youtube.com/results?search_query={lang}+{emotion}+song+{singer}")
 		np.save("emotion.npy", np.array([""]))
+		
 		st.session_state["run"] = "false"
